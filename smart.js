@@ -12,9 +12,12 @@ function successful (){
   const bookingSeats = document.getElementById('success');
   bookingSeats.classList.remove('hidden');
 }
-function again(){
-  const continues =  document.getElementById('success') ;
-  continues.classList.add('hidden')
+function agin(){
+  const bookingSeats = document.getElementById('success');
+  bookingSeats.classList.add('hidden');
+
+  const homeSection = document.getElementById('home-screen');
+  homeSection.classList.remove('hidden');
 } 
 
 
